@@ -5,6 +5,7 @@
 ngram-batch为带batch的ngram训练模型
 训练取了10epoch
 训练好后将原始数据通过ngram得到的特征向量保存到了./data/ngram_featrue_x.npy
+0.5219466871716006
 '''
 import numpy as np
 from sklearn.linear_model import LogisticRegression
