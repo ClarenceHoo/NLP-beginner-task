@@ -54,7 +54,7 @@ def task_without_CountVectorizer():
 	#y_train = np.load('./data/y_train.npy')
 	logist = LogisticRegression()
 	logist.fit(x_train_id,y_train)
-	x_test = x_train
+	x_test = x_train_id
 	predicted = logist.predict(x_test)
 	print(np.mean(predicted == y_train))
 def task_with_CountVectorizer():
