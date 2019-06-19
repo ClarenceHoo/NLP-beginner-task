@@ -53,7 +53,7 @@ def task_without_CountVectorizer():
 	#x_train = np.load('./data/x_train.npy')
 	#y_train = np.load('./data/y_train.npy')
 	logist = LogisticRegression()
-	logist.fit(x_train,y_train)
+	logist.fit(x_train_id,y_train)
 	x_test = x_train
 	predicted = logist.predict(x_test)
 	print(np.mean(predicted == y_train))
