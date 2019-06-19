@@ -32,7 +32,7 @@ import pandas as pd
 	
 def task_without_CountVectorizer():
 ####(156060,)自写CountVectorizer
-####最终结果0.5219466871716006
+####最终结果0.5221196975522235
 	df = pd.read_csv('train.tsv',header=0,delimiter='\t')
 	x_train = df['Phrase']
 	y_train = df['Sentiment']
